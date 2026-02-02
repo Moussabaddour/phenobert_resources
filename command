@@ -2,7 +2,8 @@ mamba create -n pheno36 python=3.6 \
   nltk=3.5 \
   prettytable=1.0.1 \
   fasttext=0.9.2 \
-  torch=1.3.1 \
   scipy=1.5.2 \
   stanza=1.1.1 \
-  -c conda-forge -c pytorch
+  pytorch=1.3.1 \
+  cpuonly \
+  -c pytorch -c conda-forge
